@@ -31,7 +31,7 @@ public class Number {
     
     public interface CalculationOperation
             {
-        Numer  
+        Number calc(Number x, Number y); 
             }
             
                 
