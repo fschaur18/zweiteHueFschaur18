@@ -7,6 +7,7 @@ package zweitehuefschaur18;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Consumer;
 
 /**
  *
@@ -23,8 +24,8 @@ public class HalloJavamitForEach {
            System.out.println(string);
        }
        list.forEach((String s) -> System.out.println(s));
-       
-       
+       Consumer<String> consumer = (String s) -> System.out.println(s);
+      
    }
    
 }
